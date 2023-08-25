@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+*{
+    box-sizing: content-box;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    height: 500px;
+    background-image: url(fondo\ nevado.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+h1{
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    mix-blend-mode: screen;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 5px;
+    font-size: 3em;
+}
+h3,h6{
+    font-size: 2em;
+}
+#contenedor{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+}
+#experiencia{
+    width: 80%;
+    visibility: hidden;
+    background-color: rgb(221 160 220);
+    position: absolute;
+    top: 0px;
+    left: opx;
+}
+#contenedor:hover #experiencia{
+    visibility: visible;
+}
+img{
+    width:100%;
+    height: 100%;
+    display: inline-block; 
+}
+ul{
+        list-style-type: none;
+        padding: 0; /* Remove padding */
+        margin: 0; /* Remove margins */
+}
+a{
+    display: inline-block;
+    margin-top: 30px;
+}
+
+/* 4. En este ejercicio, se debe trabajar con la
+propiedad mix-blend-mode en su valor
+screen para lograr la referencia del header.
+5. También trabajar con position y lograr una
+transición al pasar el mouse sobre la imagen
+como se ve en las referencias de las pantallas
+a continuación. */
