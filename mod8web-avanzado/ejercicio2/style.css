@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Dongle', sans-serif;
+}
+div{width: 50%;}
+h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 30px;
+}
+#a{
+    background-color: orange;
+    animation: mover-los-div 1s 0.5s forwards
+}
+#b{
+    background-color: palegoldenrod;
+    animation: mover-los-div 1s 1.5s forwards
+}
+#c{
+    background-color: pink;
+    animation: mover-los-div 1s 2.5s forwards
+}
+@keyframes mover-los-div {
+    to{margin-left: 500px;}
+
+}
+
+
+/* 4. La finalidad de este ejercicio es lograr que, al
+ingresar a la página, suceda un movimiento
+de texto. Para poder conseguirlo se debe
+trabajar con animation margin-left.
+5. Seguir la siguiente referencia para el uso de
+tipografías.
+6. Cada uno de los diferentes textos, aparte de
+poseer distinto color, deberán comenzar su
+animación uno a continuación del otro.
+ */
