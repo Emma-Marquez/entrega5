@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+*{
+    font-family: 'Mulish', sans-serif;
+    padding: 0px;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    margin: 30px;
+    font-weight: 700;
+    color: #3957f1;
+    font-size: 2em;
+}
+h2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1em;
+    width: 100%;
+    margin-bottom: 0px;
+}
+p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.5em;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.row>*{
+    padding:0px;
+    margin: 10px 10px 10px 10px;
+    flex-wrap: wrap;
+}
+.row{justify-content: space-evenly;}
+.centrado{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.col-md-5{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Se debe incorporar un
+cambio tal, que al modificar a una pantalla
+menor a 992px, ésta se vea similar a la
+referencia de la slide 13 y en la pantalla de
+768px, como la imagen de la slide 14.
+6. También implementar la propiedad llamada
+flex-wrap: wrap para que al aumentar el %
+de los div estos dejen de forzar el
+encolumnado.Responsive Web & Bootstrap
+7. Prestar atención a las referencias
+tipográficas así como a incorporar todas las
+variantes necesarias.
+8. También trabajar con rem en los tamaños
+tipográficos y modificarlos en los diferentes
+breakpoints.
+Por ejemplo: en el caso resuelto se ha trabajado
+con 6rem para el h1, 2rem para el h2, y 1.5rem
+para el p. Pero puedes elegir la opción más
+funcional para tal fin.
+9. Quitar los márgenes al h2 y al p */
