@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Source+Sans+3:ital,wght@0,400;0,900;1,400&display=swap');
+*{
+    font-family: 'Noto Sans', sans-serif;
+font-family: 'Source Sans 3', sans-serif;
+}
+img{
+    width: 100%;
+}
+@include media-breakpoint-up(md) {
+    img {
+      width: 80%
+    }
+ 
+    }
+button{
+    width: 150px;
+    margin: 10px;
+    font-weight: 400;
+    font-size: 14pt;
+    color: white;
+    background-color: #04146c;
+}
+.container{
+    margin-top: 50px;
+}
+h1{
+    font-size: 62pt;
+    color: #04146c;
+    font-weight: 900;
+}
+p{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16pt;
+    color: #04146c;
+}
+/* 6. También agregar desde la hoja de estilo una
+adaptación de la imagen para que, al
+trabajar en pantallas menores a 768px, la
+imagen esté al 100% y, en pantallas
+superiores a 768px, la imagen esté al 80%.Responsive Web & Bootstrap
+7. También centrar los botones y el texto del h1
+en pantallas menores a 768px. Realizar esto
+con clases de Bootstrap desde el HTML.
+8. Seguir la referencia de la siguiente pantalla,
+para el uso de las tipografías.
+9. Aplicar small-caps para los textos de los
+botones, que tendrán un width de 150px.
+10. Para separar los botones entre sí trabajar
+con m y su valor necesario para poder lograrlo,
+con clases de Bootstrap desde el HTML.
+11. Trabajar con d-flex para la alineación del
+contenedor de texto. */
