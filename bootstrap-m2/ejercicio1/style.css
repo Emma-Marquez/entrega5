@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+*{
+    font-family: 'Mulish', sans-serif;
+    }
+h1{
+    text-align: center;
+    color: #04146c;
+    font-size: 49pt;
+    font-weight: 700;
+}
+.card{
+    border: none;
+}
+.btn-primary,p,h6{
+    color: #04146c;
+    font-size: 18pt;
+    font-weight: 400;}
+h6{
+    font-weight: 700;
+}
+h5{
+    font-size: 30pt;
+    font-weight: 700;
+    color: #0a2ff1;
+}
+.btn-primary{
+    background-color:white;
+    border: solid #0a2ff1 2px;
+    border-radius: 0;
+}
+
+/* 7. Para este ejercicio sugerimos utilizar clases como:
+○ Clases de contenedores.
+○ Clases asociadas a botones.
+○ Col (con los derivados de breakpoints necesarios
+para lograr el resultado final de la referencia).
+○ Clases para transformar una imagen en responsiva
+y circular como en la referencia final.
+○ Alineación de texto así como de elementos
+encolumnados */
