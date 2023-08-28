@@ -1,0 +1,43 @@
+@media (max-width: 768px) {
+    img{width: 100%;}
+    *{padding: 0;}
+    }
+@media (min-width:768px) {
+    img{
+        width: 80%;
+    }    
+}
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+*{
+    font-family: 'Mulish', sans-serif;
+}
+h1{
+    font-weight: 700;
+    font-size: 37pt;
+    color: #04146c;
+}
+p{
+    font-weight: 400;
+    font-size: 18pt;
+    color: #04146c;
+}
+strong{
+    font-weight: 700;
+    font-size: 18pt;
+    color: #0a2ff1;
+}
+/* 6. También agregar desde la hoja de estilo una
+adaptación de la imagen para que, al
+trabajar en pantallas menores a 768px, la
+imagen esté al 100% y, en pantallas
+superiores a 768px, la imagen esté al 80%.Responsive Web & Bootstrap
+7. Trabajar con las clases sugeridas en el
+ejercicio anterior.
+8. Sumamos el hecho de que sugerimos quitar
+el padding en 5 desde Bootstrap cuando la
+pantalla es inferior a 768px.
+9. Prestar atención a las referencias
+tipográficas de la pantalla siguiente.
+10. Sugerimos agregar clases como d-flex para
+lograr la alineación de los elementos dentro
+de cada una de las columnas. */
